@@ -1,6 +1,6 @@
 Name:           perl-XML-Parser
 Version:        2.41
-Release:        10%{?dist}
+Release:        8%{?dist}
 Summary:        Perl module for parsing XML documents
 
 Group:          Development/Libraries
@@ -74,12 +74,6 @@ make test
 
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.41-10
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.41-9
-- Mass rebuild 2013-12-27
-
 * Thu Nov 22 2012 Jitka Plesnikova <jplesnik@redhat.com> - 2.41-8
 - Update dependencies and summary
 - Remove pre-RPM-4.9 filters
